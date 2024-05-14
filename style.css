@@ -1,0 +1,110 @@
+.logo{
+    font-family: 'yellowmag';
+    src: url('assets/fonts/yellowmag/YellowMagician.ttf') format('truetype');
+}
+.logotam{
+    font-size: 20px;
+}
+
+.yellowmag{
+    font-family: 'Yellow Magician', sans-serif;
+}
+
+@import url('https://fonts.cdnfonts.com/css/yellow-magician');
+
+.navbar-color{
+    background-color: #C99C55;
+}
+
+.navbar-brand{
+    font-size: 2.5rem;
+}
+
+.yellowmag:hover{
+  color: black;
+}
+
+/* Adicione estilos para os itens da navbar conforme necessário */  
+.navbar {
+    transition: top 0.9s;
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul li{
+    padding-inline: 20px;
+}
+
+.navbar.scrolled {
+    top: -150px; /* Define o quanto a navbar irá se recolher */
+}
+
+.imgcard{
+    cursor: pointer;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+/*Personalização do botão de adicionar ao carrinho que fica nos cards*/
+
+.adicionar-btn{
+    padding: 10px;
+    padding-inline: 60px;
+    display: block;
+    margin: auto;
+    font-family: "Lora";
+    font-size: 25px;
+    background-color: #D9D9D9;
+}
+
+.adicionar-btn:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+
+.lora{
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.card-body{
+background-color: #D9D9D9;
+}
+
+footer{
+    padding: 100px;
+    background-color:#D9D9D9;
+    margin-top: 50px;
+}
+
+
+/*Animação*/
+
+.fade-transition{
+    transition: opacity 0.3s ease;
+}
+
+
+.carousel-item img {
+    margin-top: vh; /* Adicione a quantidade de margem superior desejada */
+}
+
+.carousel {
+    max-width: 100%; /* Defina a largura máxima desejada */
+    margin: auto; /* Centralize o carrossel */
+    margin-top: 50px;
+    
+}
+.carousel {
+    max-height: px; /* Defina a altura máxima desejada */
+    overflow: hidden; /* Esconda qualquer conteúdo que estiver além da altura máxima */
+}
+.carousel-item img {
+    max-width: 100%; /* Redimensione a largura da imagem para preencher o contêiner do carrossel */
+    height: auto; /* Mantenha a proporção da imagem */
+}
