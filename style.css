@@ -108,3 +108,13 @@ footer{
     max-width: 100%; /* Redimensione a largura da imagem para preencher o contêiner do carrossel */
     height: auto; /* Mantenha a proporção da imagem */
 }
+
+@media(max-width: 425px){
+    
+    .carousel{
+        margin-top: 50px
+    }
+    
+}
+
+
