@@ -82,7 +82,6 @@ footer{
     margin-top: 50px;
 }
 
-
 /*Animação*/
 
 .fade-transition{
@@ -109,12 +108,50 @@ footer{
     height: auto; /* Mantenha a proporção da imagem */
 }
 
-@media(max-width: 425px){
-    
-    .carousel{
-        margin-top: 100px
+
+@media only screen and (max-width: 900px) {
+    body {
+        font-size: 14px;
+        margin: 0x;
+    }
+
+    .adicionar-btn{
+        font-size: 20px;
+        padding: 10px;
     }
     
+    .card-body{
+        padding: 6px;
+    }
+
+    .navbar{
+        padding: 2px;
+    }
+
+    .carousel{
+        margin-top: -10px;
+    }
+    .imgcard{}
+
+    footer{
+        display: none;
+    }
+    .card{
+
+    }
+    
+    #promo{
+        justify-items: center;
+        justify-content: center;
+    }
+    .navbar{
+        position: relative;
+    }
+    .navbar.scrolled{
+        top: none;
+    }
+
+    #home{
+        background-color: #C99C55;
+    }
 }
-
-
